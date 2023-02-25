@@ -1,10 +1,10 @@
 .btn-wsp{
   position:fixed;
-  width:-190px;
-  height:-190px;
+  width:90px;
+  height:90px;
   line-height: 60px;
-  bottom: 190px;;
-  right:-5px;
+  bottom: -5px;
+  right:60px;
   color:#FFF;
   border-radius:50px;
   text-align:end;
