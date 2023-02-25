@@ -1,12 +1,25 @@
+/*GOOGLE FONTS -Mynerve*/
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
+:root{
+	--color-1: #114e67;
+	--color-2: #84deff;
+	--color-3: #419dbf;
+	--color-4:#107496;
+	--color-5:#ffe6a4;
+	--color-6:#0d0c0c;
+}
+h1 {
+	color: var(--color-6);
+} 
 * {
 	box-sizing: border-box;
 }
 
 body {
-	background: #f6f5f7;
+	background: -webkit-linear-gradient(to right, #419dbf,#84deff);
+	background: linear-gradient(to right, #419dbf,	#84deff);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -38,7 +51,7 @@ span {
 }
 
 a {
-	color: #333;
+	color: #0d0c0c;
 	font-size: 14px;
 	text-decoration: none;
 	margin: 15px 0;
@@ -46,8 +59,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid 	#419dbf;
+	background-color: 	#419dbf;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -67,7 +80,7 @@ button:focus {
 
 button.ghost {
 	background-color: transparent;
-	border-color: #FFFFFF;
+	border-color: #141414;
 }
 
 form {
@@ -90,9 +103,9 @@ input {
 }
 
 .container {
-	background-color: #fff;
+	background-color: #55b6f6;
 	border-radius: 10px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+  	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
 	position: relative;
 	overflow: hidden;
@@ -160,13 +173,12 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: #114e67;
+	background: -webkit-linear-gradient(to right, #419dbf,#84deff);
+	background: linear-gradient(to right, #419dbf,	#84deff);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
-	color: #FFFFFF;
 	position: relative;
 	left: -100%;
 	height: 100%;
