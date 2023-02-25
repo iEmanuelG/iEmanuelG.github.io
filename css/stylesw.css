@@ -1,0 +1,15 @@
+.whatsapp-button {
+    background-color: #25d366;
+    color: #fff;
+    padding: 2px 2px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+  }
+.img-w{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
