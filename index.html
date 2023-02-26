@@ -49,6 +49,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	<!--//whatsaap estilo-->
 	<link rel="stylesheet" href="css/stylesw.css">
+	<!--stilo banner-->
+	<link rel="stylesheet" href="css/banners.css">
 </head>
 
 <body>
@@ -445,95 +447,51 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //why -->
 
 	<!-- gallery -->
-	<div class="gallery py-5" id="gallery">
-		<div class="container-fluid pt-xl-5 pt-lg-3">
-			<div class="row news-grids no-gutters text-center">
-				<div class="col-md-3 gal-img my-md-4">
-					<a href="#gal1"><img src="images/g1.jpg" alt="Gallery Image" class="img-fluid"></a>
-				</div>
-				<div class="col-md-6">
-					<div class="row no-gutters">
-						<div class="col-md-6 gal-img">
-							<a href="#gal2"><img src="images/g2.jpg" alt="Gallery Image" class="img-fluid"></a>
+	<div id="slider">
+		<input type="radio" name="slider" id="slide1" checked>
+		<input type="radio" name="slider" id="slide2">
+		<input type="radio" name="slider" id="slide3">
+		<input type="radio" name="slider" id="slide4">
+		<div id="slides">
+			<div id="overflow">
+				<div class="inner">
+					<div class="slide slide_1">
+						<div class="slide-content">
+							<img class="card-img-top" src="images/pokemonunite.jpg" alt="Unsplash">
 						</div>
-						<div class="col-md-6 gal-img">
-							<a href="#gal3"><img src="images/g3.jpg" alt="Gallery Image" class="img-fluid"></a>
+					</div>
+					<div class="slide slide_2">
+						<div class="slide-content">
+							<img class="card-img-top" src="images/amino.jpg" alt="Unsplash">
 						</div>
-						<div class="col-md-6 gal-img">
-							<a href="#gal4"><img src="images/g4.jpg" alt="Gallery Image" class="img-fluid"></a>
+					</div>
+					<div class="slide slide_3">
+						<div class="slide-content">
+							<img class="card-img-top" src="images/kawaii.jpg" alt="Unsplash">
 						</div>
-						<div class="col-md-6 gal-img">
-							<a href="#gal5"><img src="images/g5.jpg" alt="Gallery Image" class="img-fluid"></a>
+					</div>
+					<div class="slide slide_4">
+						<div class="slide-content">
+							<img class="card-img-top" src="images/pin.jpg" alt="Unsplash">
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 gal-img my-md-4">
-					<a href="#gal6"><img src="images/g6.jpg" alt="Gallery Image" class="img-fluid"></a>
-				</div>
 			</div>
-			<!-- gallery popups -->
-			<!-- popup-->
-			<div id="gal1" class="pop-overlay animate">
-				<div class="popup">
-					<img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
-					<p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
-						dolor.</p>
-					<a class="close" href="#gallery">&times;</a>
-				</div>
-			</div>
-			<!-- //popup -->
-			<!-- popup-->
-			<div id="gal2" class="pop-overlay animate">
-				<div class="popup">
-					<img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
-					<p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
-						dolor.</p>
-					<a class="close" href="#gallery">&times;</a>
-				</div>
-			</div>
-			<!-- //popup -->
-			<!-- popup-->
-			<div id="gal3" class="pop-overlay animate">
-				<div class="popup">
-					<img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
-					<p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
-						dolor.</p>
-					<a class="close" href="#gallery">&times;</a>
-				</div>
-			</div>
-			<!-- //popup3 -->
-			<!-- popup-->
-			<div id="gal4" class="pop-overlay animate">
-				<div class="popup">
-					<img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
-					<p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
-						dolor.</p>
-					<a class="close" href="#gallery">&times;</a>
-				</div>
-			</div>
-			<!-- //popup -->
-			<!-- popup-->
-			<div id="gal5" class="pop-overlay animate">
-				<div class="popup">
-					<img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
-					<p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
-						dolor.</p>
-					<a class="close" href="#gallery">&times;</a>
-				</div>
-			</div>
-			<!-- //popup -->
-			<!-- popup-->
-			<div id="gal6" class="pop-overlay animate">
-				<div class="popup">
-					<img src="images/g6.jpg" alt="Popup Image" class="img-fluid" />
-					<p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
-						dolor.</p>
-					<a class="close" href="#gallery">&times;</a>
-				</div>
-			</div>
-			<!-- //popup -->
-			<!-- //gallery popups -->
 		</div>
+		<div id="controls">
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+			<label for="slide4"></label>
+		</div>
+		<div id="bullets">
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+			<label for="slide4"></label>
+		</div>
+	</div>
+	
 	</div>
 	<!-- //gallery -->
 
