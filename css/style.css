@@ -994,6 +994,22 @@ a.button-style-w3 {
     outline: none;
 }
 
+a.button-style-e5{
+    color: #333;
+    border: 1px solid #333;
+    padding: 11px 30px;
+    display: flex;
+    font-size: 15px;
+    letter-spacing: 1px;
+    justify-content: center;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 5px;
+    outline: none;
+}
+
 h3.main-title-w3pvt {
     font-size: 30px;
     letter-spacing: 1px;
