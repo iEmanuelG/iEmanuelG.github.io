@@ -1,0 +1,43 @@
+@import 'rest/variables';
+.carrousel{
+    width: 90%;
+    max-width: 120cm;
+    padding: 2em;
+    background-color: lightskyblue;
+    padding: 2em; 
+
+    transition: all .5s ease; 
+    transform: translateX(0%);
+}
+.carrousel .grande{
+    width: 200%;
+    background-color: orange; 
+
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 2em; 
+}
+.carrousel .img{
+    width: calc( 100% / 2 - 2em);
+    min-height: 10vh;
+    background-color: lime; 
+}
+.carrousel .puntos{
+    width: 100%;
+    padding: 4em;
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: center; 
+    align-items: center;    
+}
+.carrousel .punto{
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;   
+}
+.carrousel .punto .activo{
+    background-color: orange;
+    
+}

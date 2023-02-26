@@ -47,7 +47,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //Web-Fonts -->
 
 	<!--//whatsaap estilo-->
+	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="css/stylesw.css">
+
+	<!--banners-->
+	<script defer src="app.js"></script>
 </head>
 
 <body>
@@ -63,7 +67,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="header d-md-flex justify-content-between align-items-center py-3 px-xl-5 px-lg-3 px-2">
 					<!-- logo -->
 					<div id="logo">
-						<h1><a href="index.html">Love Birds<img src="images/logo2.png" alt="" class="img-fluid"></a>
+						<h1><a href="index.html">Pokemon<img src="images/" alt="" class="img-fluid"></a>
 						</h1>
 					</div>
 					<!-- //logo -->
@@ -92,6 +96,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</li>
 								<li><a href="#contact">Contact Us</a></li>
 								<li><a href="log_in.html">Registro </a></li>
+								<li><a href="banner.html">Carrusel</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -285,7 +290,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container py-xl-5 py-lg-3">
 			<div class="row about-main py-3">
 				<div class="col-lg-5 about-text-grid pr-lg-5">
-					<h3 class="main-title-w3pvt text-capitalize pb-1">We Love to Care Birds,
+					<h3 class="main-title-w3pvt text-capitalize pb-1">We Love Pokemons,
 						<br>Donec sem risus
 					</h3>
 					<hr>
@@ -297,10 +302,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<a href="#birds" class="text-capitalize button-style-w3 mt-sm-5 mt-4">view more</a>
 				</div>
 				<div class="col-lg-3 col-sm-5 about-right mt-lg-0 mt-5">
-					<img src="images/a2.jpg" class="img-fluid" alt="" />
+					<img src="images/pkemon.jpg" class="img-fluid" alt="" />
 				</div>
 				<div class="col-lg-4 col-sm-7 mt-lg-0 mt-5 about-right">
-					<img src="images/a1.jpg" class="img-fluid" alt="" />
+					<img src="images/friends.jpg" class="img-fluid" alt="" />
 				</div>
 			</div>
 		</div>
@@ -478,28 +483,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container-fluid pt-xl-5 pt-lg-3">
 			<div class="row news-grids no-gutters text-center">
 				<div class="col-md-3 gal-img my-md-4">
-					<a href="#gal1"><img src="images/g1.jpg" alt="Gallery Image" class="img-fluid"></a>
+					
 				</div>
 				<div class="col-md-6">
-					<div class="row no-gutters">
-						<div class="col-md-6 gal-img">
-							<a href="#gal2"><img src="images/g2.jpg" alt="Gallery Image" class="img-fluid"></a>
-						</div>
-						<div class="col-md-6 gal-img">
-							<a href="#gal3"><img src="images/g3.jpg" alt="Gallery Image" class="img-fluid"></a>
-						</div>
-						<div class="col-md-6 gal-img">
-							<a href="#gal4"><img src="images/g4.jpg" alt="Gallery Image" class="img-fluid"></a>
-						</div>
-						<div class="col-md-6 gal-img">
-							<a href="#gal5"><img src="images/g5.jpg" alt="Gallery Image" class="img-fluid"></a>
+					<div class="carrousel">
+						<div class="grande">
+							<img src="https://th.bing.com/th/id/R.d7762a239789dd447a16862a72baf614?rik=7ScDFu1DZ%2fVJfQ&riu=http%3a%2f%2fmisimagenesde.com%2fwp-content%2fuploads%2f2017%2f04%2fimagenes-de-pokemon-2.jpg&ehk=Hsr7fVMZ4s0jLD%2f%2bsF6MTSRRbppTeP3gJUH%2bbKNIQUE%3d&risl=&pid=ImgRaw&r=0" alt="Imagen1" class="img">
+							<img src="images/g2.jpg" alt="Imagen2" class="img-fluid"></a>
+							<img src="images/g3.jpg" alt="Imagen3" class="img-fluid"></a>
+							<img src="images/g4.jpg" alt="Imagen4" class="img-fluid"></a>
+							<img src="images/g5.jpg" alt="Imagen5" class="img-fluid"></a>
+							<img src="images/g6.jpg" alt="Imagen6" class="img-fluid"></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 gal-img my-md-4">
-					<a href="#gal6"><img src="images/g6.jpg" alt="Gallery Image" class="img-fluid"></a>
-				</div>
-			</div>
+					<ul class="puntos">
+						<li class="punto activo"></li>
+						<li class="punto"></li>
+					</ul>
+			    </div>
 			<!-- gallery popups -->
 			<!-- popup-->
 			<div id="gal1" class="pop-overlay animate">
