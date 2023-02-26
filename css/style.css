@@ -59,7 +59,7 @@ p {
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 1.9;
-    color: #999;
+    color: black;
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -83,11 +83,11 @@ a:hover {
 }
 
 .text-wh {
-    color: #fff;
+    color: black;
 }
 
 .text-li {
-    color: #f8f9fa;
+    color:black;
 }
 
 .bg-li {
@@ -155,7 +155,7 @@ nav {
     position: absolute;
     left: -4%;
     transform: rotate(-24deg);
-    width: 50%;
+    width: 25%;
     top: 17%;
 }
 
@@ -187,7 +187,7 @@ nav ul li {
 
 /* Styling the links */
 nav a {
-    color: #fff;
+    color: black;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 2px;
@@ -640,7 +640,7 @@ li.call-w3pvt span {
 }
 
 .w3ls_banner_txt p {
-    color: #dcdcdc;
+    color: ;
 }
 
 h3.w3ls_pvt-title {
@@ -677,14 +677,14 @@ h3.w3ls_pvt-title {
 }
 
 .social-icons-footer ul li a span {
-    color: #fff;
+    color: black;
     margin: 0 10px;
     font-size: 16px;
 }
 
 .social-icons-footer:before {
     position: absolute;
-    background: rgba(255, 255, 255, 0.48);
+    background: black;
     width: 13%;
     height: 1px;
     content: "";
@@ -694,7 +694,7 @@ h3.w3ls_pvt-title {
 
 .social-icons-footer:after {
     position: absolute;
-    background: rgba(255, 255, 255, 0.48);
+    background: black;
     width: 13%;
     height: 1px;
     content: "";
@@ -719,7 +719,7 @@ h3.w3ls_pvt-title {
 }
 
 .w3pvt-grids-1 p {
-    color: #dadada;
+    color: black;
     font-size: 12px;
 }
 
