@@ -15,8 +15,8 @@ h1 {
 
 .pokemon-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
   width: 80%;
   margin-left: auto;
   margin-right: auto;

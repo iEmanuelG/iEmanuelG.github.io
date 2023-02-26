@@ -5,18 +5,18 @@ const next = document.querySelector("#next");
 
 
 let offset = 1;
-let limit = 8;
+let limit = 14;
 
 previous.addEventListener("click", () => {
   if (offset != 1) {
-    offset -= 9;
+    offset -= 15;
     removeChildNodes(pokemonContainer);
     fetchPokemons(offset, limit);
   }
 });
 
 next.addEventListener("click", () => {
-  offset += 9;
+  offset += 15;
   removeChildNodes(pokemonContainer);
   fetchPokemons(offset, limit);
 });
