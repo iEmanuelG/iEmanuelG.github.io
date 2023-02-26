@@ -15,7 +15,7 @@ const typeColors = {
     rock: '#999799',
     flying: '#7AE7C7',
     grass: '#4A9681',
-    psychic: '#FFC6D9',
+    psychic: '#FF005E',
     ghost: '#561D25',
     bug: '#A2FAA3',
     poison: '#795663',
@@ -23,6 +23,7 @@ const typeColors = {
     dragon: '#DA627D',
     steel: '#1D8A99',
     fighting: '#2F2F2F',
+    fairy: '#F0B6D5',
     default: '#2A1A1F',
 };
 
