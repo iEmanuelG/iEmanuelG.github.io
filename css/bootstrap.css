@@ -480,6 +480,11 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-fluid-2 {
+  max-width: 100%;
+  height: auto;
   margin-left: 15px;
 }
 
